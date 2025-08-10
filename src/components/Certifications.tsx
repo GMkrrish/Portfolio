@@ -3,55 +3,113 @@ import { Award, ExternalLink, Calendar, CheckCircle } from 'lucide-react';
 
 const Certifications = () => {
   const certifications = [
+   
+  {
+    title: (
+      <a
+        href="https://badges.plus.columbia.edu/ade08447-9897-4705-b0ba-525fd43ae818"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Prompt Engineering & Programming with OpenAI
+      </a>
+    ),
+    issuer: 'Columbia+',
+    date: 'Aug 2025',
+    credentialId: 'Verified',
+  },
+
+
     {
-      title: <a href="https://badges.plus.columbia.edu/ade08447-9897-4705-b0ba-525fd43ae818">'Prompt Engineering & Programming with OpenAI'</a>',
-      issuer: 'Columbia+',
-      date: 'Aug 2025',
-      credentialId: 'Verified',
-      description: 'Advanced prompt engineering techniques and OpenAI API implementation',
-      featured: true
-    },
-    {
-      title: 'Prompt Engineering For Developers',
+      title:( 
+        
+        <a href="https://learn.deeplearning.ai/accomplishments/91815c5a-69ba-4b68-92da-bf0916650ca5?usp=sharing"
+        target='_blank'
+        rel="noopener noreferrer"
+        >
+           'Prompt Engineering For Developers'
+        </a>
+        
+        ),
       issuer: 'DeepLearning.AI',
       date: 'Aug 2025',
       credentialId: 'Verified',
-      description: 'Practical prompt engineering for real-world applications'
+      description: 'Practical prompt engineering for real-world applications',
+       credentialurl:'https://learn.deeplearning.ai/accomplishments/91815c5a-69ba-4b68-92da-bf0916650ca5?usp=sharing'
     },
     {
-      title: 'AI Aware Badge - AI For All',
-      issuer: 'Intel Corporation',
+      title:( 
+        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_WkPFRuybw67YnCiMj_1754564218196_completion_certificate.pdf"
+        target='_blank'
+        rel="noopener noreferrer"
+        >
+        
+        
+        'Tata - Cybersecurity Analyst '</a>),
+      issuer: 'Tata Consultancy Services',
       date: 'Aug 2025',
-      credentialId: 'U2FsdGVkX187RPSdUO1S...',
-      description: 'Foundational understanding of AI concepts and applications'
+      credentialId: 'Ckdq4HKJqqcDPSk39',
+      description: 'Foundational understanding of Cybersecurity concepts and applications',
+       credentialurl:'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_WkPFRuybw67YnCiMj_1754564218196_completion_certificate.pdf'
     },
     {
-      title: 'ChatGPT Advanced Course',
+      title:( 
+        <a href='https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0MzM4IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODU4NTM5NV84OTA5ODAyMTc1MTg3OTM4MjA0My5wbmciLCJ1c2VybmFtZSI6IkRocnV2IEJhZGd1amFyICJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2F8585395_89098021751879382043.png&_branch_match_id=1482967448088189282&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1jepSi8vTSyI9AtNsq8rSk1LLSrKzEuPTyrKLy9OLbL1AapJTfHMAwDqE8FzPwAAAA%3D%3D'
+         target='_blank'
+        rel="noopener noreferrer"
+        >
+        'ChatGPT Advanced Course'</a>),
+
       issuer: 'Simplilearn',
       date: 'July 2025',
       credentialId: 'Verified',
-      description: 'Advanced ChatGPT usage, automation, and real-world implementation'
+      description: 'Advanced ChatGPT usage, automation, and real-world implementation',
+      credentialurl:'https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0MzM4IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODU4NTM5NV84OTA5ODAyMTc1MTg3OTM4MjA0My5wbmciLCJ1c2VybmFtZSI6IkRocnV2IEJhZGd1amFyICJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2F8585395_89098021751879382043.png&_branch_match_id=1482967448088189282&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1jepSi8vTSyI9AtNsq8rSk1LLSrKzEuPTyrKLy9OLbL1AapJTfHMAwDqE8FzPwAAAA%3D%3D'
     },
     {
-      title: 'Data Analyst Certification',
+      title: ( 
+        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_WkPFRuybw67YnCiMj_1751816805143_completion_certificate.pdf"
+        target='_blank'
+        rel="noopener noreferrer"
+        >'Data Analyst Certification'</a>),
       issuer: 'Deloitte',
       date: '2024',
       credentialId: 'Verified',
-      description: 'Comprehensive data analysis skills and business intelligence'
+      description: 'Comprehensive data analysis skills and business intelligence',
+       credentialurl:'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_WkPFRuybw67YnCiMj_1751816805143_completion_certificate.pdf'
     },
     {
-      title: 'Cybersecurity Certification',
+      title: (<a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_WkPFRuybw67YnCiMj_1751346003759_completion_certificate.pdf"
+        target='_blank'
+        rel="noopener noreferrer"
+        >'Cybersecurity Certification'</a>),
       issuer: 'Deloitte',
       date: '2024',
       credentialId: 'Verified',
-      description: 'Security fundamentals and best practices'
+      description: 'Security fundamentals and best practices',
+       credentialurl:'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_WkPFRuybw67YnCiMj_1751346003759_completion_certificate.pdf'
     },
     {
-      title: 'Introduction to Generative AI',
+      title: (<a href="https://ai-for-all.in/#/badge?id=U2FsdGVkX187RPSdUO1S7FNTJwoT0RIpEDPIp1L2u3SzQgZ4p1L2u3SpvXvzCEeQjTr82E55g4V1"
+        target='_blank'
+        rel="noopener noreferrer"
+        >'AI Aware Badge - AI For All'</a>),
+      issuer: 'Intel Corporation',
+      date: 'Aug 2025',
+      credentialId: 'U2FsdGVkX187RPSdUO1S...',
+      description: 'Foundational understanding of AI concepts and applications',
+       credentialurl:'https://ai-for-all.in/#/badge?id=U2FsdGVkX187RPSdUO1S7FNTJwoT0RIpEDPIp1L2u3SzQgZ4p1L2u3SpvXvzCEeQjTr82E55g4V1'
+    },
+    {
+      title: (<a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIzODE0IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODUzODg1M184OTA5ODAyMTc1MTE3MzQzMDg0My5wbmciLCJ1c2VybmFtZSI6IkJhZGd1amFyIERocnV2IEtpcmFuICJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2F8538853_89098021751173430843.png&_branch_match_id=1482967448088189282&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1q%2Bs8nUsKTPJdwxNsq8rSk1LLSrKzEuPTyrKLy9OLbL1AapJTfHMAwCDMK7WPwAAAA%3D%3D"
+        target='_blank'
+        rel="noopener noreferrer"
+        >'Introduction to Generative AI'</a>),
       issuer: 'Google Cloud',
       date: '2024',
       credentialId: 'Verified',
-      description: 'Generative AI concepts and Google Cloud AI services'
+      description: 'Generative AI concepts and Google Cloud AI services',
+
     }
   ];
 
@@ -113,13 +171,13 @@ const Certifications = () => {
                   Verified
                 </div>
                 
-                {cert.credentialId && (
+                {/* {cert.credentialId && (
                   <button className="text-blue-400 hover:text-blue-300 transition-colors duration-200 text-sm flex items-center">
                     View Credential
                     <ExternalLink className="w-3 h-3 ml-1" />
                     
                   </button>
-                )}
+                )} */}
               </div>
             </div>
           ))}

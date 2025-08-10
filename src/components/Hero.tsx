@@ -46,10 +46,32 @@ const Hero = () => {
               Get In Touch
             </button>
             
-            <button className="border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 flex items-center gap-2">
-              <Download size={20} />
-              
-              Download CV
+            <button >
+
+<button
+  onClick={() => {
+    const link = document.createElement('a');
+    link.href = '/Dhruv-Badgujar.pdf'; // PDF in public folder
+    link.download = 'Dhruv-Badgujar.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
+  className="border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 flex items-center gap-2"
+>
+  <Download size={20} />
+  Download CV
+</button>
+
+
+
+
+
+
+
+
+
+
             </button>
           </div>
           
