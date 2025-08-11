@@ -17,6 +17,7 @@ const Certifications = () => {
     issuer: 'Columbia+',
     date: 'Aug 2025',
     credentialId: 'Verified',
+     description: 'Completed Prompt Engineering & Programming with OpenAI, mastering API integration and LLM application development'
   },
 
 
